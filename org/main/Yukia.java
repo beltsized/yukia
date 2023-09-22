@@ -19,7 +19,7 @@ import org.yukia.species.*;
 public class Yukia {
     public static void main(String[] args) throws ClassNotFoundException, MalformedURLException, InstantiationException, IllegalAccessException {
         DiscordApi api = new DiscordApiBuilder()
-                .setToken("MTEyMjM2MDMzNjQyNzc5MDM4Nw.Gev-1y.4wXOBSE2Qqr3S9yms2DSQkziTaRT4XfQQDRqU4")
+                .setToken("")
                 .addIntents(Intent.MESSAGE_CONTENT, Intent.GUILD_MEMBERS)
                 .login().join();
 
